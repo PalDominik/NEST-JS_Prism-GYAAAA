@@ -17,7 +17,7 @@ model Cake{
   name String @unique
   price Int
   size Int
-  
+  endDate DateTime @db.Date 
 }
 
 model Drinks{
@@ -26,4 +26,5 @@ model Drinks{
   alcoholic Boolean
   price Int
   size String
+  
 }
